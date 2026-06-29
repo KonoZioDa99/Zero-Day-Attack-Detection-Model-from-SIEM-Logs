@@ -31,6 +31,18 @@ The detection ecosystem operates as a continuous modular pipeline:
 
 ---
 
+## 📸 System Architecture & Detection Results
+
+<p align="center">
+  <img src="./zero_day_architecture.png" alt="System Architecture Diagram" width="45%" />
+  &nbsp; &nbsp;
+  <img src="./wazuh_dashboard_alerts.jpg" alt="Wazuh SIEM Alerts Dashboard" width="45%" />
+</p>
+
+*Left: The data pipeline and ML feature extraction architecture. Right: Real-time Zero-Day anomaly alerts triggered inside the Wazuh SIEM dashboard.*
+
+---
+
 ## 🔬 Feature Engineering Methodology
 
 To transform arbitrary command lines and process executions into mathematically scannable behaviors, the dataset extraction pipeline extracts the following key features from Sysmon logs:
